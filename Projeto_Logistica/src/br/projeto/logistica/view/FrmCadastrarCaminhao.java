@@ -174,6 +174,7 @@ public class FrmCadastrarCaminhao extends JFrame {
 		btnCancelar.setBounds(10, 306, 89, 23);
 		contentPane.add(btnCancelar);
 		
+		//Melhorar este construtor, parar de passar tantos parametros
 		CaminhaoController cController = new CaminhaoController(txtMarca, txtModelo, txtAnoModelo, txtRenavam, txtPlaca, txtChassi, txtCategoria, txtEixo, txtAnoModelo, rdbtnNovo, rdbtnSemiNovo);
 		btnSalvar.addActionListener(cController);
 		btnNovo.addActionListener(cController);
